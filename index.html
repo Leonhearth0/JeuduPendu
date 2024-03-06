@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Jeu du pendu</h1>
+        <div id="startMenu">
+            <article>
+                <h2>Regles du jeu</h2>
+                <p>Le mot a deviner apparait a droite de l'ecran.</p>
+                <p>Cliquez sur le clavier virtuel pour choisir une lettre.</p>
+                <p>Au bout de 6 erreurs, vous avez perdu.</p>
+                <button id="startButtonEasy">Facile - Mots de 6 lettres </button>
+                <button id="startButtonMedium">Moyen - Mots de 7 lettres</button>
+                <button id="startButtonHard">Difficile - Mots de 8 lettres</button>
+            </article>
+        </div>
+        <div id="gameArea">
+            <section id="topSection">
+                <article id="hangmanLocation">
+                    <img id="HangMan" src="" alt="Image du pendu">
+                </article>
+                <article>
+                    <div id="wordLocation"></div>
+                    <div id="resultLocation"></div>
+                    <button id="restart">Recommencer</button>
+                </article>
+            </section>
+            <section id="bottomSection">
+                <div id="keyBoardTop"></div>
+                <div id="keyBoardBottom"></div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+<script src="./assets/js/script.js"></script>
+
+</html>
